@@ -1,0 +1,179 @@
+# Copyright (C) 2025 Erusoft
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: E-Fatura 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/e-fatura\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-21T20:22:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: e-fatura\n"
+
+#. Plugin Name of the plugin
+#: e-fatura.php
+msgid "E-Fatura"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: e-fatura.php
+msgid "https://github.com/erayusta/efatura"
+msgstr ""
+
+#. Description of the plugin
+#: e-fatura.php
+msgid "WooCommerce siparişlerine PDF fatura yükleme ve müşteri indirme özelliği"
+msgstr ""
+
+#. Author of the plugin
+#: e-fatura.php
+msgid "Erusoft"
+msgstr ""
+
+#: includes/class-efatura-admin.php:25
+#: includes/class-efatura-admin.php:35
+msgid "E-Fatura Yönetimi"
+msgstr ""
+
+#: includes/class-efatura-admin.php:62
+msgid "Mevcut Faturalar"
+msgstr ""
+
+#: includes/class-efatura-admin.php:71
+#: includes/class-efatura-public.php:137
+#: includes/class-efatura-public.php:202
+msgid "İndir"
+msgstr ""
+
+#: includes/class-efatura-admin.php:75
+msgid "Sil"
+msgstr ""
+
+#: includes/class-efatura-admin.php:85
+msgid "Yeni Fatura Yükle"
+msgstr ""
+
+#: includes/class-efatura-admin.php:88
+msgid "Fatura Yükle"
+msgstr ""
+
+#: includes/class-efatura-admin.php:151
+#: includes/class-efatura-admin.php:243
+msgid "Bu işlem için yetkiniz yok."
+msgstr ""
+
+#: includes/class-efatura-admin.php:155
+msgid "Çok fazla deneme yaptınız. Lütfen daha sonra tekrar deneyin."
+msgstr ""
+
+#: includes/class-efatura-admin.php:159
+msgid "Dosya yüklenmedi."
+msgstr ""
+
+#: includes/class-efatura-admin.php:166
+msgid "Geçersiz istek."
+msgstr ""
+
+#: includes/class-efatura-admin.php:196
+msgid "Dosya yüklenirken hata oluştu."
+msgstr ""
+
+#: includes/class-efatura-admin.php:219
+msgid "Veritabanı hatası."
+msgstr ""
+
+#. translators: %s uploaded invoice file name
+#: includes/class-efatura-admin.php:228
+msgid "Fatura yüklendi: %s"
+msgstr ""
+
+#: includes/class-efatura-admin.php:232
+msgid "Fatura başarıyla yüklendi."
+msgstr ""
+
+#: includes/class-efatura-admin.php:259
+#: includes/class-efatura-public.php:59
+msgid "Fatura bulunamadı."
+msgstr ""
+
+#: includes/class-efatura-admin.php:273
+msgid "Silme işlemi başarısız."
+msgstr ""
+
+#. translators: %s deleted invoice file name
+#: includes/class-efatura-admin.php:282
+msgid "Fatura silindi: %s"
+msgstr ""
+
+#: includes/class-efatura-admin.php:286
+msgid "Fatura başarıyla silindi."
+msgstr ""
+
+#: includes/class-efatura-admin.php:333
+msgid "Yükleme hatası"
+msgstr ""
+
+#: includes/class-efatura-admin.php:334
+msgid "Bu faturayı silmek istediğinizden emin misiniz?"
+msgstr ""
+
+#: includes/class-efatura-public.php:34
+msgid "Güvenlik doğrulaması başarısız."
+msgstr ""
+
+#: includes/class-efatura-public.php:39
+msgid "Bu faturayı indirme yetkiniz yok."
+msgstr ""
+
+#: includes/class-efatura-public.php:44
+msgid "Çok fazla indirme denemesi. Lütfen daha sonra tekrar deneyin."
+msgstr ""
+
+#: includes/class-efatura-public.php:65
+msgid "Fatura dosyası bulunamadı."
+msgstr ""
+
+#: includes/class-efatura-public.php:93
+msgid "Fatura dosyası okunamadı."
+msgstr ""
+
+#: includes/class-efatura-public.php:120
+msgid "Faturalar"
+msgstr ""
+
+#: includes/class-efatura-public.php:124
+#: includes/class-efatura-public.php:167
+msgid "Fatura"
+msgstr ""
+
+#: includes/class-efatura-public.php:125
+msgid "Tarih"
+msgstr ""
+
+#: includes/class-efatura-public.php:126
+msgid "İşlem"
+msgstr ""
+
+#: includes/class-efatura-security.php:25
+msgid "Sadece PDF dosyaları yüklenebilir."
+msgstr ""
+
+#: includes/class-efatura-security.php:31
+msgid "Geçersiz dosya uzantısı."
+msgstr ""
+
+#: includes/class-efatura-security.php:36
+msgid "Dosya boyutu 10MB'dan büyük olamaz."
+msgstr ""
+
+#: includes/class-efatura-security.php:50
+msgid "Dosya sistemi başlatılamadı."
+msgstr ""
+
+#: includes/class-efatura-security.php:54
+msgid "Geçersiz PDF dosyası."
+msgstr ""
